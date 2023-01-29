@@ -1,9 +1,52 @@
+/*normalizar el documeno*/
 *{
-    font-family: "Comic Sans MS";
-    outline: 1px solid red;
-    margin: 0%;
+    font-family: "Comic Sans MS"; /**/
+    outline: 1px solid red; /* ver los margenes de los objetos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*banner*/
+figure{
+    position: relative;
+
+    
+}
+#banner{
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+}
+    
+h1{
+    position: absolute;
+    font-size: 3em;
+    text-align: left;
+    
 }
 
+/*logo*/
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+img#logo{
+    height: 6em;
+    float: right;
+    position:relative;
+    top: -1em;
+    left:-5em;
+
+ }
+
+ nav{
+    display: block;
+ }
+
+ h3{
+    font-weight: bold;
+ }
 
 /* #banner{
     width: 100%;
@@ -14,7 +57,7 @@
     
 } */
 
-section{
+/* section{
     background-color: black;
     margin-left: 20%;
     margin-right: 20%;
@@ -24,7 +67,7 @@ h2{
 }
 img{
     width: 30px; height: 37px; object-fit: cover; object-position: 100% 0;
-}
+} */
 
 /* h2{
     background-color: black;
