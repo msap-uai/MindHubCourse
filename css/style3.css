@@ -10,6 +10,12 @@
   /* outline: 1px solid red; */
   background-color: white;
 }
+
+
+/* table, th, td{
+  border:1px solid black;
+} */
+
 /*BANNER*/
 #banner {
   width: 100%;
@@ -18,7 +24,7 @@
   object-position: 0% 15%;
 }
 header > h1 {
-  position: fixed;
+  position: absolute;
   background-color: rgba(255, 255, 255, 0.5);
   margin-right: 50%;
   width: 100%;
@@ -34,6 +40,7 @@ header > h1 {
   left: -2em;
   rotate: 25deg;
   border: 2px solid yellow;
+  
 }
 /*TITLE*/
 section h2 {
@@ -85,4 +92,7 @@ div {
 }
 div p {
   margin-bottom: 20px;
+}
+li{
+  margin-left: 10%;
 }

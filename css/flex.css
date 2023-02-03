@@ -1,0 +1,41 @@
+/*FLEX*/
+#container-flex{
+    /*fondo de la etiqueta*/ 
+    background-image: url(../img/design1_image1.jpg);
+    height: 10rem;
+  
+    /*aplica flex*/
+    display: flex;
+  
+    /*columnas o filas (default)*/
+    flex-direction: column;
+    /*invierte orden fila o columna*/
+    flex-direction: row-reverse;
+  
+    /*centrar elemntos horizontalmente*/
+    justify-content: center;
+    
+    /*espaciado de elementos*/
+    justify-content: space-between;
+  
+    /*ajusta los elementos al tamaño de la pagina*/
+    flex-wrap: wrap;
+  
+    /*alinea en forma vertical*/
+    align-items: flex-start;
+  
+    /*alineacion con mas de una fila*/
+    align-content: center;
+  
+    /*ordenamiento de los elementos*/
+    order: 3; /*pone un orden a los elementos*/
+  
+  
+  }
+  #element-flex{
+    
+    /*distribucion del espacio sobrante de la fila*/
+    flex-grow: 2;
+    /* alineacion de un elemento*/
+    align-self: center;
+  }
