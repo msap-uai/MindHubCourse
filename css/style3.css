@@ -11,7 +11,6 @@
   background-color: white;
 }
 
-
 /* table, th, td{
   border:1px solid black;
 } */
@@ -40,7 +39,6 @@ header > h1 {
   left: -2em;
   rotate: 25deg;
   border: 2px solid yellow;
-  
 }
 /*TITLE*/
 section h2 {
@@ -93,6 +91,6 @@ div {
 div p {
   margin-bottom: 20px;
 }
-li{
+li {
   margin-left: 10%;
 }
