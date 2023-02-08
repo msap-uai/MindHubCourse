@@ -1,0 +1,36 @@
+div table {
+  border-color: black;
+  border-width: 1px;
+}
+
+div tr {
+  border-color: blue;
+}
+
+div td {
+  border-color: red;
+}
+
+#reset {
+  background-color: rgb(212, 109, 109);
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+}
+
+#submit {
+  background-color: aqua;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+}
+
+fieldset {
+  border: none;
+  width: 70%;
+  /*float: right;*/
+}
+
+input {
+  background-color: rgb(223, 217, 217);
+}
